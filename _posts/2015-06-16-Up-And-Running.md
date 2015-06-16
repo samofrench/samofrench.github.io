@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sam French's Site Launch"
+title: "Up And Running"
 date: 2015-06-16
 ---
 
