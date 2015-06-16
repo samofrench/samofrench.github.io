@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "Sam French's Site Launch"
+date: 2015-06-16
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+I finally put my first website together today! It was created using [GitHub](http://github.com) and powered by [Jekyll](http://jekyllrb.com). Check back later for more blog posts, my CV, and other site updates.
