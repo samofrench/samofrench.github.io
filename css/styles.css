@@ -101,19 +101,19 @@ body {
 
 .project {
 
-	height: 300px;
+	height: 150px;
 	padding: 0;
 	margin: 10px 0;
+}
 
-	background: url('http://www.lorempixel.com/400/300') no-repeat; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+@media (min-width: 525px) {
+	.project {
+		height: 300px;
+	}
 }
 
 .description {
-	background-color: rgba(0, 0, 0, .55);
+	background-color: rgba(0, 0, 0, .75);
 	color: white;
 	height: 100%;
 	width: 100%;
@@ -125,4 +125,73 @@ body {
 .project:hover div.description{
 	display: block;
 }
+
+.modal-content {
+	border-radius: 0;
+}
+
+.main-img {
+	width: 75%;
+	height: auto;
+	margin: 25px auto 0 auto;
+	padding: 0;
+}
+
+@media (min-width: 525px) {
+	.main-img {
+		width: 400px;
+	}
+}
+
+.desktop-img {
+	width: 50%;
+	height: auto;
+	margin: 25px;
+	border: 1px solid rgba(0, 0, 0, .75);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .75);
+}
+
+@media (min-width: 525px) {
+	.desktop-img {
+		width: 250px;
+	}
+}
+
+.mobile-img {
+	width: 25%;
+	height: auto;
+	margin: 25px;
+	border: 1px solid rgba(0, 0, 0, .75);
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .75);
+}
+
+@media (min-width: 525px) {
+	.mobile-img {
+		width: 125px;
+	}
+}
+.close-btn {
+	float: right;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0;
+	outline: 0;
+	font-size: 2em;
+}
+
+.site-btn{
+	width: 75%;
+	height: auto;
+	margin: 0 auto 25px auto;
+	background-color: orange;
+	outline: none;
+	border: none;
+	color: white;
+}
+
+@media (min-width: 525px) {
+	.site-btn {
+		width: 400px;
+	}
+}
+
 
