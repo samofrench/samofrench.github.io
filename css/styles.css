@@ -1,0 +1,128 @@
+.font-1 {
+	font-family: 'Georgia', serif;
+}
+
+.font-2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container {
+}
+
+.navigation {
+	border-radius: none;
+	background-color: rgba(0, 0, 0, .75);
+	height: 45px;
+}
+
+.tabs {
+	color: white;
+	text-align: center;
+	font-size: 3vw;
+	width: 17%;
+	height: 45px;
+	line-height: 45px;
+	box-sizing: border-box;
+}
+
+.logo {
+	float: left;
+	font-weight: 800;
+	width: auto;
+	padding: 0 20px;
+}
+
+.tabs:hover, {
+	border-bottom: 4px solid white;
+}
+
+@media (min-width: 525px) {
+	.tabs {
+		width: 90px;
+		font-size: 14px;
+	}
+
+	.logo {
+		font-size: 20px;
+		width: auto;
+	}
+
+	.float-right {
+		float: right;
+	}
+
+	.right-text {
+		text-align: right;
+	}
+}
+
+.tabs-ul {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+}
+
+.navigation li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navigation li.active, .navigation li:hover {
+	border-bottom: 4px solid white;
+}
+
+
+.home-img {
+	width: 100%;
+	height: auto;
+}
+
+body { 
+  background: url(../images/squairy_light.png) repeat; 
+}
+
+.red {
+	border: 1px solid red;
+}
+
+.blue {
+	border: 1px solid blue;
+}
+
+.banner {
+	margin: 50px 0;
+	background-color: white;
+
+}
+
+.no-pad {
+	padding: 0;
+}
+
+.project {
+
+	height: 300px;
+	padding: 0;
+	margin: 10px 0;
+
+	background: url('http://www.lorempixel.com/400/300') no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.description {
+	background-color: rgba(0, 0, 0, .55);
+	color: white;
+	height: 100%;
+	width: 100%;
+	padding: 50px 20px 20px 20px;
+	margin: 0;
+	display: none;
+}
+
+.project:hover div.description{
+	display: block;
+}
+

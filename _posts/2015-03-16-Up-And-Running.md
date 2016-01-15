@@ -1,7 +1,0 @@
----
-layout: post
-title: "Up And Running"
-date: 2015-03-16
----
-
-I finally put my first website together today! It was created using [GitHub](http://github.com) and powered by [Jekyll](http://jekyllrb.com). Check back later for more blog posts, my CV, and other site updates.
