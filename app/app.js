@@ -10,10 +10,6 @@ app.config([
 			templateUrl: "views/about.html",
 		}).when("/portfolio", {
 			templateUrl: "views/portfolio.html"
-		}).when("/blog", {
-			templateUrl: "views/blog.html"
-		}).when("/contact", {
-			templateUrl: "views/contact.html"
 		}).otherwise({
 			templateUrl: "views/404.html"
 		});

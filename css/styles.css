@@ -6,9 +6,6 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-.container {
-}
-
 .navigation {
 	border-radius: none;
 	background-color: rgba(0, 0, 0, .75);
@@ -81,22 +78,16 @@ body {
   background: url(../images/squairy_light.png) repeat; 
 }
 
-.red {
-	border: 1px solid red;
+
+.no-pad {
+	padding: 0
 }
 
-.blue {
-	border: 1px solid blue;
-}
 
 .banner {
 	margin: 50px 0;
 	background-color: white;
 
-}
-
-.no-pad {
-	padding: 0;
 }
 
 .project {
@@ -144,30 +135,30 @@ body {
 }
 
 .desktop-img {
-	width: 50%;
+	width: 75%;
 	height: auto;
-	margin: 25px;
+	margin: 25px auto;
 	border: 1px solid rgba(0, 0, 0, .75);
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, .75);
 }
 
 @media (min-width: 525px) {
 	.desktop-img {
-		width: 250px;
+		width: 375px;
 	}
 }
 
 .mobile-img {
-	width: 25%;
+	width: 38%;
 	height: auto;
-	margin: 25px;
+	margin: 25px auto;
 	border: 1px solid rgba(0, 0, 0, .75);
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, .75);
 }
 
 @media (min-width: 525px) {
 	.mobile-img {
-		width: 125px;
+		width: 185px;
 	}
 }
 .close-btn {
@@ -188,10 +179,24 @@ body {
 	color: white;
 }
 
+.home-btn {
+	background-color: rgba(0, 0, 0, .75);
+	outline: none;
+	border: none;
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+	margin: 25px;
+}
+
 @media (min-width: 525px) {
 	.site-btn {
 		width: 400px;
 	}
+}
+
+.icon img {
+	height: 3em;
 }
 
 .icon-list {
@@ -199,13 +204,44 @@ body {
 	margin-top: 25px;
 }
 
-.icon {
+.home-icon {
 	list-style-type: none;
 	display: inline-block;
 	width: 25%;
 }
 
-.icon img {
-	height: 3em;
+.contact-icon {
+	list-style-type: none;
+
 }
 
+.contact-list {
+	margin: 25px 0;
+}
+.contact-list a {
+	color: black;
+	text-decoration: none;
+}
+
+.about-img {
+	height: 54px;
+}
+
+.vmg-img {
+	width: 200px;
+}
+
+a.about-link {
+	color: black;
+	text-decoration: none;	
+}
+
+.giphy-embed {
+	width: 75%;
+}
+
+@media (min-width: 525px) {
+	.giphy-embed {
+		width: 400px;
+	}
+}
