@@ -8,9 +8,9 @@ app.config([
 			templateUrl: "views/index.html",
 		}).when("/about", {
 			templateUrl: "views/about.html",
-		}).when("/portfolio", {
-			templateUrl: "views/portfolio.html"
-		}).otherwise({
+		}).when("/contact", {
+      templateUrl: "views/contact.html",
+    }).otherwise({
 			templateUrl: "views/404.html"
 		});
 
@@ -42,6 +42,20 @@ app.controller('HomeCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
       ]
     },
     {
+      name: "Penny Post", 
+      descriptionShort: "Send a postcard using photos from your Instagram and Facebook accounts",
+      technologies: "Angular.js, Node.js, Express.js, MongoDB, HTML5, CSS3",
+      role: "Front-end engineer, full stack developer",
+      team: [{name: "Nathan Maas", gh: "https://github.com/Nathanmaas"}],
+      descriptionLong: "Penny post is an app that lets you send your own Instagram and Facebook photos as physical postcards in the mail. We created a simple, intuitive user interface that makes designing the card as easy and fast as possible. Users log in and choose photos from their social media accounts powered by APIs, write a personal message, and enter the recipients' addresses. In a few days, your recipients will receive a custom-printed postcard in the mail.",
+      mainImg: "../images/pennypost/pennypost.png",
+      desktopImages: [
+        "../images/pennypost/postcard-front.png",
+        "../images/pennypost/postcard-back.png",
+        "../images/pennypost/pp-create.png"  
+      ]
+    },
+    {
       name: "Concrt", 
       descriptionShort: "A place to discover and share local music",
       technologies: "Ruby on Rails, D3.js, Bootstrap, HTML5, CSS3, PostgreSQL",
@@ -58,6 +72,21 @@ app.controller('HomeCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
         "../images/concrt/signin.png"  
       ]
     }, 
+    {
+      name: "Paidit!", 
+      descriptionShort: "Record-keeping app for renters",
+      technologies: "Angular.js, Bootstrap, HTML5, CSS3",
+      role: "Front-end developer",
+      team: [{name: "Allison Borngesser", gh: "#"}, {name: "Diana Rodriguez", gh: "#"}, {name: "Destinee Shammah", gh: "#"}, {name: "Rahn Stolworthy", gh: "#"}, {name: "Liam Albright", gh: "#"}],
+      descriptionLong: "Paidit helps renters by creating a digital receipt of rent payments. This receipt can then be shared between the tenant and the landlord in order to mitigate or avoid disputes and litigation. Paidit can help those who are outside the banking system or who otherwise do not pay rent in a way that automatically generates a receipt.",
+      url: "http://paidit.github.io/",
+      github: "",
+      mainImg: "../images/paidit/paidit.png",
+      desktopImages: [
+        "../images/paidit/about-paidit.png",
+        "../images/paidit/phone-paidit.png"  
+      ]
+    },
 
   ];
 

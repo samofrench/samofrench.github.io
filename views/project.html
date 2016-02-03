@@ -5,8 +5,10 @@
     <h4 class="font-1 text-center"><em>{{project.descriptionShort}}</em></h4>
     <h4 class="font-2">Technologies: {{project.technologies}}</h4>
     <div class="text-center font-2">
-	    <img src="{{project.mainImg}}" class="main-img img img-responsive">
-	    <a href="{{project.url}}" target="_blank"><button class="site-btn">View Project</button></a>
+        <img src="{{project.mainImg}}" class="main-img img img-responsive">
+	    <div ng-if="project.url.length > 0">
+            <a href="{{project.url}}" target="_blank"><button class="site-btn">View Project</button></a>
+        </div>
 	</div>
     <p class="font-2">Role: <span class="font-1">{{project.role}}</span></p>
     <p ng-show="project.team" class="font-2">Team: <span class="font-1">Sam French<span ng-repeat="member in project.team">, <a href="{{member.gh}}" target="_blank">{{member.name}}</a></span></span></p>

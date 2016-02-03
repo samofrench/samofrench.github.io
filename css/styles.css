@@ -26,7 +26,7 @@
 	float: left;
 	font-weight: 800;
 	width: auto;
-	padding: 0 20px;
+	padding: 0 20px 0 0;
 }
 
 .tabs:hover, {
@@ -92,14 +92,14 @@ body {
 
 .project {
 
-	height: 150px;
+	height: 125px;
 	padding: 0;
-	margin: 10px 0;
+	margin: 3rem 1rem;
 }
 
 @media (min-width: 525px) {
 	.project {
-		height: 300px;
+		height: 250px;
 	}
 }
 
@@ -212,6 +212,8 @@ body {
 
 .contact-icon {
 	list-style-type: none;
+	display: inline-block;
+	width: 15%;
 
 }
 
@@ -245,3 +247,28 @@ a.about-link {
 		width: 400px;
 	}
 }
+
+.main {
+	padding-bottom: 6rem;
+}
+
+#portfolio h1 {
+	border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
