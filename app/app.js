@@ -6,11 +6,7 @@ app.config([
 	function ($routeProvider, $locationProvider) {
 		$routeProvider.when("/", {
 			templateUrl: "views/index.html",
-		}).when("/about", {
-			templateUrl: "views/about.html",
-		}).when("/contact", {
-      templateUrl: "views/contact.html",
-    }).otherwise({
+		}).otherwise({
 			templateUrl: "views/404.html"
 		});
 
@@ -19,7 +15,7 @@ app.config([
 	}
 ]);
 
-app.controller('HomeCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
+app.controller('HomeCtrl', ['$scope', '$document', '$window', '$uibModal', function($scope, $document, $window, $uibModal) {
 
   $scope.projects = [
     {
@@ -106,6 +102,28 @@ app.controller('HomeCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
       }
     });
   };
+
+
+  // addEventListener('load', load, false);
+
+  // function load(){
+  //   var el = document.getElementById("headshot");
+  //   alert(el);
+  // }
+
+  // angular.element(document).ready(function () {
+
+  // if (document.getElementById('landing-text')) {
+  //   $scope.text = document.getElementById('landing-text').offsetHeight;
+  // };
+  //   var headshot = document.getElementById('headshot');
+
+  //   console.log("OSH: " + text);
+  //   // headshot.style.height = text.offsetHeight;
+  //   console.log("HSH: " + headshot.style.height);
+
+  // });
+
 }]);
 
 app.controller('ModalInstanceCtrl', ['$scope', '$uibModalInstance', 'project', function($scope, $uibModalInstance, project) {

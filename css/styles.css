@@ -115,17 +115,16 @@ body {
 }
 
 #landing-text {
-	padding: 3rem;	
+	padding: 3rem;
 }
 
 #headshot {
-	height: 200px;
 	margin: 0 auto;
 	background-image: url(../images/headshot.jpg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-position-x: 50%;
-	background-position-y: 0%;
+/*	background-position-x: 50%; */
+	background-position-y: 50%;
 }
 
 #home {
@@ -155,14 +154,7 @@ body {
 }
 
 .project {
-	height: 30vh;
 	margin-bottom: 1rem;
-}
-
-@media (min-width: 768px) {
-	.project {
-		height: 40vh;
-	}
 }
 
 .project:hover div.description{
@@ -265,7 +257,7 @@ body {
 }
 
 .contact-list {
-	margin: 1rem 0;
+	margin: 1.5rem 0;
 	padding: 0;
 }
 .contact-list a {
