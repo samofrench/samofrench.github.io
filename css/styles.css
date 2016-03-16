@@ -1,3 +1,25 @@
+html {
+	font-size: 14px;
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
 .font-1 {
 	font-family: 'Georgia', serif;
 }
@@ -6,42 +28,53 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+p {
+	font-size: .9rem;
+}
+
+h2 {
+	font-size: 1.35rem;
+}
+
+h1 {
+	font-size: 1.8rem;
+	margin-top: 0;
+}
+
 .navigation {
 	border-radius: none;
 	background-color: rgba(0, 0, 0, .75);
-	height: 45px;
+	height: 3rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 111;
 }
 
 .tabs {
 	color: white;
 	text-align: center;
-	font-size: 3vw;
+	font-size: 1rem;
 	width: 17%;
-	height: 45px;
-	line-height: 45px;
+	height: 3rem;
+	line-height: 3rem;
 	box-sizing: border-box;
 }
 
-.logo {
+#logo {
+	color: white;
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 1.5rem;
+	letter-spacing: .2rem;
 	float: left;
-	font-weight: 800;
-	width: auto;
-	padding: 0 20px 0 0;
+	box-sizing: border-box;
 }
 
-.tabs:hover, {
-	border-bottom: 4px solid white;
-}
-
-@media (min-width: 525px) {
+@media (min-width: 768px) {
 	.tabs {
-		width: 90px;
-		font-size: 14px;
-	}
-
-	.logo {
-		font-size: 20px;
-		width: auto;
+		width: 135px;
 	}
 
 	.float-right {
@@ -68,39 +101,46 @@
 	border-bottom: 4px solid white;
 }
 
-
-.home-img {
+/*.home-img {
 	width: 100%;
 	height: auto;
-}
+}*/
 
 body { 
   background: url(../images/squairy_light.png) repeat; 
 }
 
+.banner {
+	background-color: rgba(255, 255, 255, .75);
+}
+
+#landing-text {
+	padding: 3rem;
+}
+
+#headshot {
+	margin: 0 auto;
+	background-image: url(../images/headshot.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+/*	background-position-x: 50%; */
+	background-position-y: 50%;
+}
+
+#home {
+	padding-top: 4rem;
+}
 
 .no-pad {
 	padding: 0
 }
 
-
-.banner {
-	margin: 50px 0;
-	background-color: white;
-
+.icon img {
+	height: 3em;
 }
 
-.project {
-
-	height: 125px;
-	padding: 0;
-	margin: 3rem 1rem;
-}
-
-@media (min-width: 525px) {
-	.project {
-		height: 250px;
-	}
+.section {
+	margin: 1.5rem 0;
 }
 
 .description {
@@ -111,6 +151,10 @@ body {
 	padding: 50px 20px 20px 20px;
 	margin: 0;
 	display: none;
+}
+
+.project {
+	margin-bottom: 1rem;
 }
 
 .project:hover div.description{
@@ -184,7 +228,7 @@ body {
 	outline: none;
 	border: none;
 	color: white;
-	font-size: 16px;
+	font-size: 1rem;
 	padding: 10px;
 	margin: 25px;
 }
@@ -195,30 +239,26 @@ body {
 	}
 }
 
-.icon img {
-	height: 3em;
-}
-
 .icon-list {
 	padding: 0;
-	margin-top: 25px;
+	margin-top: 1rem;
 }
 
-.home-icon {
+/*.home-icon {
 	list-style-type: none;
 	display: inline-block;
 	width: 25%;
-}
+}*/
 
 .contact-icon {
 	list-style-type: none;
 	display: inline-block;
-	width: 15%;
-
+	width: 6rem;
 }
 
 .contact-list {
-	margin: 25px 0;
+	margin: 1.5rem 0;
+	padding: 0;
 }
 .contact-list a {
 	color: black;
@@ -226,7 +266,7 @@ body {
 }
 
 .about-img {
-	height: 54px;
+	height: 3rem;
 }
 
 .vmg-img {
@@ -238,6 +278,10 @@ a.about-link {
 	text-decoration: none;	
 }
 
+#portfolio {
+	padding: 3rem;
+}
+
 .giphy-embed {
 	width: 75%;
 }
@@ -247,17 +291,6 @@ a.about-link {
 		width: 400px;
 	}
 }
-
-.main {
-	padding-bottom: 6rem;
-}
-
-#portfolio h1 {
-	border-bottom: 1px solid black;
-}
-
-
-
 
 
 
