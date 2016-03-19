@@ -28,6 +28,14 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
+.bold {
+	font-weight: 800;
+}
+
+.bold span {
+	font-weight: 400;
+}
+
 p {
 	font-size: .9rem;
 }
@@ -101,11 +109,6 @@ h1 {
 	border-bottom: 4px solid white;
 }
 
-/*.home-img {
-	width: 100%;
-	height: auto;
-}*/
-
 body { 
   background: url(../images/squairy_light.png) repeat; 
 }
@@ -136,7 +139,7 @@ body {
 }
 
 .icon img {
-	height: 3em;
+	height: 4em;
 }
 
 .section {
@@ -148,7 +151,7 @@ body {
 	color: white;
 	height: 100%;
 	width: 100%;
-	padding: 50px 20px 20px 20px;
+	padding: 5%;
 	margin: 0;
 	display: none;
 }
@@ -244,12 +247,6 @@ body {
 	margin-top: 1rem;
 }
 
-/*.home-icon {
-	list-style-type: none;
-	display: inline-block;
-	width: 25%;
-}*/
-
 .contact-icon {
 	list-style-type: none;
 	display: inline-block;
@@ -292,7 +289,9 @@ a.about-link {
 	}
 }
 
-
+.small {
+	font-size: .5rem;
+}
 
 
 

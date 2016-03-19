@@ -13,6 +13,7 @@
     <p class="font-2">Role: <span class="font-1">{{project.role}}</span></p>
     <p ng-show="project.team" class="font-2">Team: <span class="font-1">Sam French<span ng-repeat="member in project.team">, <a href="{{member.gh}}" target="_blank">{{member.name}}</a></span></span></p>
     <p class="font-1">{{project.descriptionLong}}</p>
+    <p class="font-1">{{project.roleLong}}</p>
     <div class="row text-center" ng-show="project.desktopImages" ng-repeat="img in project.desktopImages">    
         <img src="{{img}}" class="desktop-img">
     </div>

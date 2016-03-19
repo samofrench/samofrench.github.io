@@ -3,9 +3,13 @@
 		<div class="row banner">
 			<div class="col-xs-12 col-sm-6 text-left" id="landing-text">
 				<h2 class="font-2 section">Web Development</h2>
-				<p class="font-2">I am a Seattle-based web developer who works in full-stack applications. I want to build software and use creative thinking to solve big problems.</p>
+				<p class="font-2">I am a Seattle-based web developer who works in full-stack applications. I am skilled at building software and thinking creatively in order to solve problems.</p>
 				<h2 class="font-2 section">Skills</h2>
-				<p class="font-2">Javascript, Java, Ruby on Rails, Node.js, Express.js, Angular.js, SQL, PostgreSQL, MongoDB, jQuery, HTML5, CSS3, D3.js, Git/GitHub</p>
+				<p class="font-1">LANGUAGES: <span class="font-2">Javascript, Java,  Ruby, HTML/CSS</span></p>
+				<p class="font-1">FRAMEWORKS: <span class="font-2">Angular.js, jQuery,  Ruby on Rails, Express.js, Node.js</span></p>
+				<p class="font-1">DATABASES: <span class="font-2">SQL, MongoDB</span></p>
+				<p class="font-1">OTHER: <span class="font-2">MVC, Agile, Git/GitHub</span></p>
+				<!-- <p class="font-2">Javascript, Java, Ruby on Rails, Node.js, Express.js, Angular.js, SQL, PostgreSQL, MongoDB, jQuery, HTML5, CSS3, D3.js, Git/GitHub</p> -->
 				<ul class="contact-list">
 					<li class="icon contact-icon"><a href="mailto:samofrench@gmail.com" target="_blank"><img src="../images/icons/mail.svg"></a></li>
 					<li class="icon contact-icon"><a href="https://www.linkedin.com/in/sam-french-85076083" target="_blank"><img src="../images/icons/linkedin.svg"></a></li>
@@ -21,9 +25,13 @@
 		        <div class="project" project="project" ng-click="open(project)">
 					<div class="description font-2">
 		            	<h3>{{project.name}}</h3>
-		            	<p>{{project.technologies}}</p>
+		            	<p>{{project.tileDesc}}</p>
+		            	<p>ROLE: <span class="font-1">{{project.tileRole}}</span></p>
+		            	<p>TECH: <span class="font-1">{{project.tileTech}}</span></p>
+		            	<p class="small">(click for more info)</p>
 		            </div>
 		        </div>
 		    </div>
 		</div>
 	</div>
+</div>
