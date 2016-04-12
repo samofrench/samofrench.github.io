@@ -147,7 +147,7 @@ body {
 }
 
 .description {
-	background-color: rgba(0, 0, 0, .75);
+	background-color: rgba(0, 0, 0, .9);
 	color: white;
 	height: 100%;
 	width: 100%;
@@ -293,7 +293,24 @@ a.about-link {
 	font-size: .5rem;
 }
 
+.footer {
+/*	bottom: 0;
+	left: 0;
+	position: absolute;*/
+	width: 100%;
+	background-color: #252525;
+	color: white;
+	padding: 2rem;
+}
 
+.footer-link {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-link i {
+	font-size: 1.5rem;
+}
 
 
 
