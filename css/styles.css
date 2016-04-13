@@ -121,6 +121,12 @@ body {
 	padding: 3rem;
 }
 
+.home-photo {
+	width: 50%;
+	float: right;
+	padding: 20px;
+}
+
 #headshot {
 	margin: 0 auto;
 	background-image: url(../images/headshot.jpg);
